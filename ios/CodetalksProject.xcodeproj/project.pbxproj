@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CodetalksProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CodetalksProjectTests.m */; };
 		0F624C2828B3B2D7004C896F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F624C2728B3B2D7004C896F /* GoogleService-Info.plist */; };
+		0F6DB38628B67F8700301B96 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0F6DB38528B67F8700301B96 /* FirebaseAuth */; };
+		0F6DB38828B67F8700301B96 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0F6DB38728B67F8700301B96 /* FirebaseFirestore */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4DB6B1578E42058A3BB5061F /* libPods-CodetalksProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB35900983DAD78B259F24A4 /* libPods-CodetalksProject.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		874088D83A9C18C9B7CE8CEC /* libPods-CodetalksProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B7C8462D4792756B672C30 /* libPods-CodetalksProject.a */; };
-		FBC3AB92A5D723A634B98DAA /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AACC9D779AA63122DCAED3 /* libPods-CodetalksProject-CodetalksProjectTests.a */; };
+		A5DA9FE1CED6D3B40C6A5D73 /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F7DA43F59DB97BBC2078D /* libPods-CodetalksProject-CodetalksProjectTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +46,6 @@
 		00E356EE1AD99517003FC87E /* CodetalksProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodetalksProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CodetalksProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodetalksProjectTests.m; sourceTree = "<group>"; };
-		03B7C8462D4792756B672C30 /* libPods-CodetalksProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F624C2728B3B2D7004C896F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CodetalksProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodetalksProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CodetalksProject/AppDelegate.h; sourceTree = "<group>"; };
@@ -57,7 +58,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CodetalksProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B20CF7E85BC2E34397AB10E /* Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0384CBDBF5D2F859AFF45A1 /* Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig"; path = "Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		C2AACC9D779AA63122DCAED3 /* libPods-CodetalksProject-CodetalksProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject-CodetalksProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9F7DA43F59DB97BBC2078D /* libPods-CodetalksProject-CodetalksProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject-CodetalksProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB35900983DAD78B259F24A4 /* libPods-CodetalksProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -66,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC3AB92A5D723A634B98DAA /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */,
+				A5DA9FE1CED6D3B40C6A5D73 /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874088D83A9C18C9B7CE8CEC /* libPods-CodetalksProject.a in Frameworks */,
+				0F6DB38628B67F8700301B96 /* FirebaseAuth in Frameworks */,
+				0F6DB38828B67F8700301B96 /* FirebaseFirestore in Frameworks */,
+				4DB6B1578E42058A3BB5061F /* libPods-CodetalksProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				03B7C8462D4792756B672C30 /* libPods-CodetalksProject.a */,
-				C2AACC9D779AA63122DCAED3 /* libPods-CodetalksProject-CodetalksProjectTests.a */,
+				DB35900983DAD78B259F24A4 /* libPods-CodetalksProject.a */,
+				CE9F7DA43F59DB97BBC2078D /* libPods-CodetalksProject-CodetalksProjectTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +211,10 @@
 			dependencies = (
 			);
 			name = CodetalksProject;
+			packageProductDependencies = (
+				0F6DB38528B67F8700301B96 /* FirebaseAuth */,
+				0F6DB38728B67F8700301B96 /* FirebaseFirestore */,
+			);
 			productName = CodetalksProject;
 			productReference = 13B07F961A680F5B00A75B9A /* CodetalksProject.app */;
 			productType = "com.apple.product-type.application";
@@ -237,6 +245,9 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				0F6DB38428B67F8700301B96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -715,6 +726,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F6DB38428B67F8700301B96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F6DB38528B67F8700301B96 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F6DB38428B67F8700301B96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0F6DB38728B67F8700301B96 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F6DB38428B67F8700301B96 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
