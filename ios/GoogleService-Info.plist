@@ -29,6 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:987090815484:ios:e22db40785423a2c8b4a79</string>
+	<string>1:987090815484:ios:2a2f5e6e990b85b18b4a79</string>
+	<key>DATABASE_URL</key>
+	<string>https://reactfirebase-86fc0-default-rtdb.europe-west1.firebasedatabase.app</string>
 </dict>
 </plist>

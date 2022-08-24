@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CodetalksProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CodetalksProjectTests.m */; };
-		0F94626428AEDE8D007A94B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F94626328AEDE8D007A94B0 /* GoogleService-Info.plist */; };
+		0F624C2828B3B2D7004C896F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F624C2728B3B2D7004C896F /* GoogleService-Info.plist */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		71413E0635E77B7A1B54C349 /* libPods-CodetalksProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114074759FC18E90B9F6F308 /* libPods-CodetalksProject.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C77AC19FE2193D96955159CB /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D61883555F3A004D888445EA /* libPods-CodetalksProject-CodetalksProjectTests.a */; };
+		874088D83A9C18C9B7CE8CEC /* libPods-CodetalksProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B7C8462D4792756B672C30 /* libPods-CodetalksProject.a */; };
+		FBC3AB92A5D723A634B98DAA /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AACC9D779AA63122DCAED3 /* libPods-CodetalksProject-CodetalksProjectTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +44,20 @@
 		00E356EE1AD99517003FC87E /* CodetalksProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodetalksProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CodetalksProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodetalksProjectTests.m; sourceTree = "<group>"; };
-		0F94626328AEDE8D007A94B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		114074759FC18E90B9F6F308 /* libPods-CodetalksProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B7C8462D4792756B672C30 /* libPods-CodetalksProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F624C2728B3B2D7004C896F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CodetalksProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodetalksProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CodetalksProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CodetalksProject/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CodetalksProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CodetalksProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CodetalksProject/main.m; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-CodetalksProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject.debug.xcconfig"; path = "Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-CodetalksProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject.release.xcconfig"; path = "Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40250BC0579362CD27774278 /* Pods-CodetalksProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject.debug.xcconfig"; path = "Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject.debug.xcconfig"; sourceTree = "<group>"; };
+		667E073835340BB6A3B1B11A /* Pods-CodetalksProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject.release.xcconfig"; path = "Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CodetalksProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig"; path = "Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		D61883555F3A004D888445EA /* libPods-CodetalksProject-CodetalksProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject-CodetalksProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B20CF7E85BC2E34397AB10E /* Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0384CBDBF5D2F859AFF45A1 /* Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig"; path = "Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2AACC9D779AA63122DCAED3 /* libPods-CodetalksProject-CodetalksProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodetalksProject-CodetalksProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77AC19FE2193D96955159CB /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */,
+				FBC3AB92A5D723A634B98DAA /* libPods-CodetalksProject-CodetalksProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71413E0635E77B7A1B54C349 /* libPods-CodetalksProject.a in Frameworks */,
+				874088D83A9C18C9B7CE8CEC /* libPods-CodetalksProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		13B07FAE1A68108700A75B9A /* CodetalksProject */ = {
 			isa = PBXGroup;
 			children = (
-				0F94626328AEDE8D007A94B0 /* GoogleService-Info.plist */,
+				0F624C2728B3B2D7004C896F /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				114074759FC18E90B9F6F308 /* libPods-CodetalksProject.a */,
-				D61883555F3A004D888445EA /* libPods-CodetalksProject-CodetalksProjectTests.a */,
+				03B7C8462D4792756B672C30 /* libPods-CodetalksProject.a */,
+				C2AACC9D779AA63122DCAED3 /* libPods-CodetalksProject-CodetalksProjectTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-CodetalksProject.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-CodetalksProject.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig */,
+				40250BC0579362CD27774278 /* Pods-CodetalksProject.debug.xcconfig */,
+				667E073835340BB6A3B1B11A /* Pods-CodetalksProject.release.xcconfig */,
+				8B20CF7E85BC2E34397AB10E /* Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig */,
+				B0384CBDBF5D2F859AFF45A1 /* Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CodetalksProjectTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				D2BBD719D8431CC14BC4FE03 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				A2D70E3675F1FE00FCCAEADD /* [CP] Embed Pods Frameworks */,
+				3D833AFE983422E4A2F35C6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,15 +192,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CodetalksProject" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				EF87B2FC1D237C0A07E8003C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 				0FBA0A9928AD96FF009050CD /* Embed Frameworks */,
+				E23F40D32EF77AA27154F83D /* [CP] Embed Pods Frameworks */,
+				4C2F28C5426CB23A64B52B27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,7 +261,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				0F94626428AEDE8D007A94B0 /* GoogleService-Info.plist in Resources */,
+				0F624C2828B3B2D7004C896F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,24 +284,58 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		3D833AFE983422E4A2F35C6A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		4C2F28C5426CB23A64B52B27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D70E3675F1FE00FCCAEADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BBD719D8431CC14BC4FE03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,7 +357,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		E23F40D32EF77AA27154F83D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF87B2FC1D237C0A07E8003C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,57 +394,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject/Pods-CodetalksProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodetalksProject-CodetalksProjectTests/Pods-CodetalksProject-CodetalksProjectTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -448,7 +448,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig */;
+			baseConfigurationReference = 8B20CF7E85BC2E34397AB10E /* Pods-CodetalksProject-CodetalksProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -475,7 +475,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig */;
+			baseConfigurationReference = B0384CBDBF5D2F859AFF45A1 /* Pods-CodetalksProject-CodetalksProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -499,7 +499,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-CodetalksProject.debug.xcconfig */;
+			baseConfigurationReference = 40250BC0579362CD27774278 /* Pods-CodetalksProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -525,7 +525,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-CodetalksProject.release.xcconfig */;
+			baseConfigurationReference = 667E073835340BB6A3B1B11A /* Pods-CodetalksProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

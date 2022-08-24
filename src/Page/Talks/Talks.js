@@ -1,13 +1,13 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, FlatList } from "react-native";
-import firestore from "@react-native-firebase/firestore";
-import auth from "@react-native-firebase/auth";
+// import firestore from "@react-native-firebase/firestore";
+// import auth from "@react-native-firebase/auth";
 import styles from "./Talks.style";
 
 import MessageCard from "../../Companents/Card/MessageCard";
 import FloatingButton from "../../Companents/FloatingButton";
 import InputModal from "../../Companents/InputModal";
-import parseContentData from "../../Utils/parseContentData";
+// import parseContentData from "../../Utils/parseContentData";
 
 const Talks = ({ navigation, route }) => {
     const [data, setData] = useState([]);
@@ -15,8 +15,9 @@ const Talks = ({ navigation, route }) => {
     const [value, setValue] = useState("");
 
     const { ref } = route.params;
-    
-    useEffect(()=>{
+
+    useEffect(() => {
+        /*
         firestore()
         .collection("Room")
         .doc(ref.ref._documentPath._parts[1])
@@ -26,32 +27,36 @@ const Talks = ({ navigation, route }) => {
             setData(parseData);
         });
         navigation.setOptions({ headerTitle: ref.data().course});
-    },[]);
-    
+        */
+    }, []);
 
-    const renderMessage = ({item}) => <MessageCard data={item._data} />;
-    
+
+    const renderMessage = ({ item }) => <MessageCard data={item._data} />;
+
 
     function handleVisible() {
         setIsVisible(isVisible ? false : true)
     }
 
     function addData() {
+        /*
+        if (value != "") {
+            const object = {
+                user: auth().currentUser.email.split("@")[0],
+                message: value,
+                time: new Date().toISOString(),
+            };
 
-        const object = { 
-            user : auth().currentUser.email.split("@")[0],
-            message : value,
-            time : new Date().toISOString(),
-        };
+            firestore()
+                .collection("Room")
+                .doc(ref.ref._documentPath._parts[1])
+                .collection("Talks")
+                .add(object);
 
-        firestore()
-        .collection("Room")
-        .doc(ref.ref._documentPath._parts[1])
-        .collection("Talks")
-        .add(object);
-
-        handleVisible();
-        setValue("");
+            handleVisible();
+            setValue("");
+        }
+        */
     }
 
     return (
@@ -59,13 +64,13 @@ const Talks = ({ navigation, route }) => {
             <View style={styles.header_container}>
                 <Text style={styles.header}>{ref.data().course} odası kuruldu!</Text>
             </View>
-            <FlatList 
-                data={data} 
+            <FlatList
+                data={data}
                 renderItem={renderMessage}
             />
-            <FloatingButton 
-            icon={"plus"} 
-            onPress={handleVisible} 
+            <FloatingButton
+                icon={"plus"}
+                onPress={handleVisible}
             />
             <InputModal
                 value={value}
