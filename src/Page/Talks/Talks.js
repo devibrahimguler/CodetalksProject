@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, FlatList } from "react-native";
-// import firestore from "@react-native-firebase/firestore";
-// import auth from "@react-native-firebase/auth";
+import firestore from "@react-native-firebase/firestore";
+import auth from "@react-native-firebase/auth";
 import styles from "./Talks.style";
 
 import MessageCard from "../../Companents/Card/MessageCard";
 import FloatingButton from "../../Companents/FloatingButton";
 import InputModal from "../../Companents/InputModal";
-// import parseContentData from "../../Utils/parseContentData";
+import parseContentData from "../../Utils/parseContentData";
 
 const Talks = ({ navigation, route }) => {
     const [data, setData] = useState([]);
@@ -17,7 +17,6 @@ const Talks = ({ navigation, route }) => {
     const { ref } = route.params;
 
     useEffect(() => {
-        /*
         firestore()
         .collection("Room")
         .doc(ref.ref._documentPath._parts[1])
@@ -27,7 +26,6 @@ const Talks = ({ navigation, route }) => {
             setData(parseData);
         });
         navigation.setOptions({ headerTitle: ref.data().course});
-        */
     }, []);
 
 
@@ -39,7 +37,6 @@ const Talks = ({ navigation, route }) => {
     }
 
     function addData() {
-        /*
         if (value != "") {
             const object = {
                 user: auth().currentUser.email.split("@")[0],
@@ -56,7 +53,6 @@ const Talks = ({ navigation, route }) => {
             handleVisible();
             setValue("");
         }
-        */
     }
 
     return (

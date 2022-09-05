@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView, View, Text, Alert } from "react-native";
-// import auth from "@react-native-firebase/auth";
+import auth from "@react-firebase/auth";
 import styles from "./Login.styles";
 import { Formik } from "formik";
 
@@ -16,7 +16,7 @@ const Login = ({ navigation }) => {
 
     function handleSignIn(val) {
         
-        /*
+        
         auth().signInWithEmailAndPassword(val.usermail, val.password)
         .then(() => {
             navigation.navigate("InnerPage");
@@ -24,7 +24,7 @@ const Login = ({ navigation }) => {
         .catch(() => {
             Alert.alert("Giriş Yapılamadı", "Kullanıcı yada Şifre Yanlış!");
         })
-        */
+        
     }
 
     function signUp() {

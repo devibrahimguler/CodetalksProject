@@ -2,7 +2,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
-// import auth from "@react-native-firebase/auth";
+import auth from "@react-native-firebase/auth";
 
 import Login from "./Page/Login";
 import Register from "./Page/Register";
@@ -39,10 +39,8 @@ const EntryStack = () => {
 const InnerStack = ({ navigation }) => {
 
   const onClosing = () => {
-    /*
     auth().signOut();
     navigation.navigate("SignInPage");
-    */
   }
 
   return (
@@ -70,11 +68,9 @@ const Router = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        /*
         initialRouteName={
            !auth().currentUser ? "SignInPage" : "InnerPage" 
         }
-        */
       >
         <Stack.Screen name="SignInPage" component={EntryStack} options={{
           headerShown: false,

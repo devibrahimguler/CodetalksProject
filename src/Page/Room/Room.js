@@ -1,6 +1,6 @@
 import React from "react";
 import { View, FlatList } from "react-native";
-// import firestore from "@react-native-firebase/firestore";
+import firestore from "@react-native-firebase/firestore";
 import styles from "./Room.style";
 
 import CourseCard from "../../Companents/Card/CourseCard";
@@ -15,12 +15,10 @@ const Room = ({ navigation }) => {
     const renderCourse = ({ item }) => <CourseCard title={item.data().course} onPress={() => hendleTalks(item)} />;
 
     React.useEffect(()=>{
-        /*
         firestore().collection("Room")
         .onSnapshot(snapshot=>{
             setData(snapshot.docs);
         });
-        */
     },[]);
 
     function hendleTalks(ref) {
@@ -34,11 +32,9 @@ const Room = ({ navigation }) => {
 
     function addData() {
         if (value != "") {
-            /*
             const object = { course: value };
             firestore().collection("Room").add(object);
             handleVisible();
-            */
         }
     }
 

@@ -2,7 +2,7 @@ import React from "react";
 import { SafeAreaView, View, Text, Alert } from "react-native";
 import styles from "./Register.style";
 import { Formik } from "formik";
-// import auth from "@react-native-firebase/auth";
+import auth from "@react-native-firebase/auth";
 
 import Input from "../../Companents/Input";
 import Button from "../../Companents/Button";
@@ -21,7 +21,7 @@ const Register = ({ navigation }) => {
 
     const handleSignUp = (val) => {
         if(val.password == val.repassword) {
-            /*
+            
             auth().createUserWithEmailAndPassword(val.usermail, val.password)
             .then(()=> {
                 Alert.alert(val.usermail, "Kayıt Başarılı!");
@@ -30,7 +30,7 @@ const Register = ({ navigation }) => {
             .catch(error => {
                 Alert.alert("Kayıt Başarısız!", "Kullanıcı Mevcut!");
             });
-            */
+            
         }
     }
 

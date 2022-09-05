@@ -1,4 +1,12 @@
 {
   "name": "CodetalksProject",
-  "displayName": "CodetalksProject"
+  "displayName": "CodetalksProject",
+  "plugins" : [
+    "expo-build-properties",
+    {
+      "ios": {
+        "useFrameworks": "static"
+      }
+    }
+  ]
 }
